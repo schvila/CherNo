@@ -1,20 +1,34 @@
-// StringLiterals.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// String Literals in C++
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    const char* name = "Standa"; //immutable literal in const area CONST SEGMENT of exe. Zero ended. const good practise.
+    //name[2] = 'L'; nelze
+    //
+    char  name2[] = "Petr"; //interne vznikne kopie do pole
+    name2[1] = 'i';
+
+    const wchar_t*  wt = L"Wide"; //2bytes windows 4bytes linux, mac
+    const char16_t* ch16 = u"Petr";
+    const char32_t* ch32 = U"Johana";
+
+    //std::string str = "Me " + "you"; // nelze str literals 2 pointers
+    std::string str =  std::string("Me ") + "you"; // now ok
+
+    using namespace std::string_literals;
+    std::string str2 = "Me "s + "you"; // viz pripona 's'
+
+    //multiline
+    const char* t1 = R"(jedna
+    dve
+    tri)";
+
+
+
+
+    
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
