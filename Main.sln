@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestStatic", "TestStatic\Te
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRvalues", "LRvalues\LRvalues.vcxproj", "{C1E70C8A-4222-4CDA-BE8A-A1B96BE9B7AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoveSemantics", "MoveSemantics\MoveSemantics.vcxproj", "{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{C1E70C8A-4222-4CDA-BE8A-A1B96BE9B7AC}.Release|x64.Build.0 = Release|x64
 		{C1E70C8A-4222-4CDA-BE8A-A1B96BE9B7AC}.Release|x86.ActiveCfg = Release|Win32
 		{C1E70C8A-4222-4CDA-BE8A-A1B96BE9B7AC}.Release|x86.Build.0 = Release|Win32
+		{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}.Debug|x64.ActiveCfg = Debug|x64
+		{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}.Debug|x64.Build.0 = Debug|x64
+		{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}.Debug|x86.Build.0 = Debug|Win32
+		{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}.Release|x64.ActiveCfg = Release|x64
+		{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}.Release|x64.Build.0 = Release|x64
+		{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}.Release|x86.ActiveCfg = Release|Win32
+		{FB7A80B4-E8D3-49DD-AC13-2A562E1CEDA8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
