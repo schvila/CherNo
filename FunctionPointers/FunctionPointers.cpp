@@ -24,6 +24,8 @@ int main()
     //HelloWorld();
     //auto func = &HelloWorld;
     //void(*func)() = &HelloWorld;
+
+    // not used in c++
     typedef void(*HelloWorldFunction)(int);
     HelloWorldFunction func = HelloWorld;
     func(5);
