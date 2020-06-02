@@ -34,6 +34,7 @@ struct Vector
 };
 int main()
 {
+    //using arrow operator to get offset in memory
     int ofs_x = (int)&((Vector*)nullptr)->x;
     int ofs_y = (int)&((Vector*)nullptr)->y;
     int ofs_z = (int)&((Vector*)nullptr)->z;
